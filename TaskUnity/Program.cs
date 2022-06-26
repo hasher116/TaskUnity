@@ -298,7 +298,6 @@ namespace TaskExam
         {
             AssertEqual(FormatPrettyCoins(0, ' '), "0");
             AssertEqual(FormatPrettyCoins(5, ' '), "5");
-            AssertEqual(FormatPrettyCoins(7, ' '), "7");
             AssertEqual(FormatPrettyCoins(99, ' '), "99");
             AssertEqual(FormatPrettyCoins(100, ' '), "100");
             AssertEqual(FormatPrettyCoins(1000, ' '), "1 000");
